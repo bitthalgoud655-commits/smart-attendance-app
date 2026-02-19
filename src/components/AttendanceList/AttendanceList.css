@@ -1,0 +1,144 @@
+.attendance-list-container {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.attendance-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.attendance-list-header h2 {
+  margin: 0;
+  color: #2d3748;
+  font-size: 1.3rem;
+}
+
+.attendance-list-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Date Chips */
+.date-chips {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.date-chip {
+  padding: 6px 14px;
+  border: 2px solid #e2e8f0;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.2s;
+  color: #718096;
+}
+
+.date-chip:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.date-chip.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: transparent;
+}
+
+/* Table */
+.records-table-wrapper {
+  overflow-x: auto;
+}
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.records-table th {
+  text-align: left;
+  padding: 12px 16px;
+  background: #f7fafc;
+  color: #a0aec0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  border-bottom: 2px solid #edf2f7;
+}
+
+.records-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #edf2f7;
+  font-size: 0.95rem;
+}
+
+.records-table tbody tr:hover {
+  background: #f7fafc;
+}
+
+.record-row.present {
+  border-left: 3px solid #48bb78;
+}
+
+.record-row.absent {
+  border-left: 3px solid #e53e3e;
+}
+
+.record-row.late {
+  border-left: 3px solid #ecc94b;
+}
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-chip.present {
+  background: #f0fff4;
+  color: #38a169;
+}
+
+.status-chip.absent {
+  background: #fff5f5;
+  color: #e53e3e;
+}
+
+.status-chip.late {
+  background: #fffff0;
+  color: #d69e2e;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #a0aec0;
+}
+
+.empty-state p {
+  margin: 8px 0;
+}
+
+.empty-state .hint {
+  font-size: 0.85rem;
+  color: #cbd5e0;
+}

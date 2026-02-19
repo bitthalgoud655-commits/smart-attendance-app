@@ -1,0 +1,176 @@
+.reports-page {
+  animation: fadeIn 0.4s ease;
+}
+
+.page-title {
+  color: #2d3748;
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+}
+
+/* Alert Section */
+.alert-section {
+  background: #fff5f5;
+  border: 2px solid #fed7d7;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.alert-section h3 {
+  margin: 0 0 16px 0;
+  color: #c53030;
+  font-size: 1.1rem;
+}
+
+.alert-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alert-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #fed7d7;
+}
+
+.alert-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.alert-name {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.alert-class {
+  font-size: 0.8rem;
+  color: #a0aec0;
+}
+
+.alert-percentage {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 8px;
+}
+
+.alert-percentage.warning {
+  background: #fffff0;
+  color: #d69e2e;
+}
+
+.alert-percentage.critical {
+  background: #fff5f5;
+  color: #e53e3e;
+}
+
+/* Student Report Section */
+.student-report-section {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+}
+
+.student-report-section h3 {
+  margin: 0 0 16px 0;
+  color: #2d3748;
+}
+
+.report-table-wrapper {
+  overflow-x: auto;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th {
+  text-align: left;
+  padding: 12px 14px;
+  background: #f7fafc;
+  color: #a0aec0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  border-bottom: 2px solid #edf2f7;
+}
+
+.report-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #edf2f7;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.report-table tbody tr:hover {
+  background: #f7fafc;
+}
+
+.text-green {
+  color: #38a169;
+  font-weight: 600;
+}
+
+.text-red {
+  color: #e53e3e;
+  font-weight: 600;
+}
+
+.text-yellow {
+  color: #d69e2e;
+  font-weight: 600;
+}
+
+.percentage-bar-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mini-bar {
+  flex: 1;
+  height: 8px;
+  background: #edf2f7;
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 60px;
+}
+
+.mini-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.percentage-text {
+  font-weight: 600;
+  font-size: 0.85rem;
+  min-width: 35px;
+}
+
+.records-section {
+  margin-top: 24px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
