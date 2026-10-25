@@ -7,9 +7,11 @@ const Settings = () => {
   const [schoolName, setSchoolName] = useState(settings.schoolName);
   const [newClass, setNewClass] = useState('');
   const [saved, setSaved] = useState(false);
+  const [classLatitude, setClassLatitude] = useState(settings.classLatitude || '');
+  const [classLongitude, setClassLongitude] = useState(settings.classLongitude || '');
 
   const handleSaveSchool = () => {
-    updateSettings({ schoolName });
+    updateSettings({ schoolName, classLatitude, classLongitude, attendanceRadius: 5 });
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };
@@ -59,6 +61,33 @@ const Settings = () => {
             {saved ? '✅ Saved!' : '💾 Save'}
           </button>
         </div>
+      </div>
+
+      <div className="settings-card">
+        <h3>📍 Class Location</h3>
+        <p>Radius checking is disabled for testing. Scan location is recorded but not compared with these coordinates.</p>
+        <div className="settings-input-group">
+          <input
+            type="number"
+            step="any"
+            value={classLatitude}
+            onChange={(e) => setClassLatitude(e.target.value)}
+            placeholder="Class latitude"
+            className="settings-input"
+          />
+          <input
+            type="number"
+            step="any"
+            value={classLongitude}
+            onChange={(e) => setClassLongitude(e.target.value)}
+            placeholder="Class longitude"
+            className="settings-input"
+          />
+          <button className="btn btn-primary" onClick={handleSaveSchool}>
+            Save location
+          </button>
+        </div>
+        <small>Use decimal coordinates from the classroom location. GPS works on HTTPS or localhost.</small>
       </div>
 
       {/* Class Management */}

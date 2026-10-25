@@ -27,34 +27,38 @@
   align-items: center;
 }
 
-.quick-actions {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 16px;
+.session-start-form {
+  display: grid;
+  grid-template-columns: minmax(140px, .8fr) minmax(180px, 1fr) auto;
+  align-items: end;
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
-.btn-quick {
-  padding: 8px 16px;
-  border: 2px solid #e2e8f0;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 600;
-  background: white;
-  transition: all 0.2s;
-}
+.session-start-form label { display: grid; gap: 6px; color: #34495e; font-size: .85rem; font-weight: 700; }
+.session-start-form input,
+.session-start-form select { min-width: 0; padding: 10px; border: 1px solid #cad8e2; border-radius: 8px; font: inherit; }
+.session-start-form button:disabled { cursor: not-allowed; opacity: .6; }
 
-.btn-quick.present:hover {
-  background: #f0fff4;
-  border-color: #48bb78;
-  color: #38a169;
-}
-
-.btn-quick.absent:hover {
-  background: #fff5f5;
-  border-color: #fc8181;
-  color: #e53e3e;
-}
+.active-sessions { margin: 20px 0; }
+.active-sessions > h3,
+.attendance-list > h3 { color: #17324d; }
+.active-session-card { display: grid; grid-template-columns: minmax(180px, 1fr) 160px minmax(220px, 1.2fr); gap: 18px; align-items: start; margin: 12px 0; padding: 16px; border: 1px solid #d8e4ef; border-radius: 12px; background: #f7fbfd; }
+.active-session-details h4,
+.session-attendees h4 { margin: 0 0 8px; color: #17324d; }
+.active-session-details p,
+.session-attendees p { margin: 6px 0; color: #5c7182; font-size: .85rem; }
+.session-qr { text-align: center; overflow-wrap: anywhere; }
+.session-qr img { width: 256px; height: 256px; max-width: 100%; background: #fff; }
+.session-qr p { color: #5c7182; font-size: .8rem; }
+.session-error { color: #b42318 !important; }
+.session-attendees ul { list-style: none; margin: 0; padding: 0; }
+.session-attendees li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding: 8px 0; border-bottom: 1px solid #e2e8f0; color: #34495e; font-size: .85rem; }
+.session-attendees li span { color: #718096; }
+.scan-message { margin: 12px 0; padding: 10px 12px; border-radius: 8px; font-size: .85rem; font-weight: 600; }
+.scan-message.success { background: #e6f7ed; color: #176b45; }
+.scan-message.error { background: #fff0ee; color: #b42318; }
+.scan-message.info { background: #eaf4fb; color: #245c7a; }
 
 /* Attendance Items */
 .attendance-list {
@@ -122,77 +126,23 @@
   border-radius: 4px;
 }
 
-/* Status Buttons */
-.status-buttons {
-  display: flex;
-  gap: 6px;
-}
-
-.status-btn {
-  padding: 6px 14px;
-  border: 2px solid #e2e8f0;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 0.8rem;
-  font-weight: 600;
-  background: white;
-  transition: all 0.2s;
+.attendance-status {
   color: #718096;
-}
-
-.status-btn.present:hover,
-.status-btn.present.active {
-  background: #48bb78;
-  border-color: #48bb78;
-  color: white;
-}
-
-.status-btn.late:hover,
-.status-btn.late.active {
-  background: #ecc94b;
-  border-color: #ecc94b;
-  color: white;
-}
-
-.status-btn.absent:hover,
-.status-btn.absent.active {
-  background: #e53e3e;
-  border-color: #e53e3e;
-  color: white;
-}
-
-/* Save Button */
-.attendance-save {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.btn-save {
-  padding: 12px 40px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  border-radius: 12px;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  cursor: pointer;
-  transition: all 0.3s;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
-.btn-save:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+.attendance-status.marked {
+  color: #26834b;
 }
 
 @media (max-width: 600px) {
+  .session-start-form,
+  .active-session-card { grid-template-columns: 1fr; }
+  .session-start-form button { width: 100%; }
+  .session-qr img { width: 280px; height: 280px; }
   .attendance-item {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .status-buttons {
-    width: 100%;
-    justify-content: space-between;
   }
 }

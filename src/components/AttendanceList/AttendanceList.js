@@ -91,7 +91,8 @@ const AttendanceList = () => {
                 <th>Roll No</th>
                 <th>Name</th>
                 <th>Class</th>
-                <th>Status</th>
+                  <th>Status</th>
+                  <th>Reason</th>
               </tr>
             </thead>
             <tbody>
@@ -111,6 +112,7 @@ const AttendanceList = () => {
                         record.status.slice(1)}
                     </span>
                   </td>
+                  <td>{record.reason ? record.reason : '-'}</td>
                 </tr>
               ))}
             </tbody>

@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
-  const { settings } = useApp();
+  const { settings, teacher, logout } = useApp();
 
   const isActive = (path) => location.pathname === path;
 
@@ -53,6 +53,18 @@ const Navbar = () => {
             >
               ⚙️ Settings
             </Link>
+          </li>
+          <li>
+            <button
+              type="button"
+              className="navbar-logout"
+              onClick={() => {
+                setMenuOpen(false);
+                logout();
+              }}
+            >
+              Sign out ({teacher.username})
+            </button>
           </li>
         </ul>
       </div>

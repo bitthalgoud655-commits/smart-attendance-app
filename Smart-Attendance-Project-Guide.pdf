@@ -1,0 +1,472 @@
+%PDF-1.4
+%ASCII
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2134 >>
+stream
+0.965 0.979 0.985 rg 0 0 595.28 841.89 re f
+0.080 0.220 0.340 rg 0 576.89 595.28 265 re f
+0.200 0.700 0.720 rg 48 771.89 42 4 re f
+BT /F2 30 Tf 1.000 1.000 1.000 rg 1 0 0 1 48.00 729.89 Tm (SMART ATTENDANCE) Tj ET
+BT /F2 30 Tf 1.000 1.000 1.000 rg 1 0 0 1 48.00 690.89 Tm (SYSTEM) Tj ET
+BT /F1 14 Tf 0.720 0.870 0.900 rg 1 0 0 1 48.00 647.89 Tm (Project guide | Hinglish edition) Tj ET
+BT /F1 9 Tf 0.880 0.930 0.950 rg 1 0 0 1 48.00 615.89 Tm (Workflow, technologies, database, security, setup and testing) Tj ET
+1.000 1.000 1.000 rg 48 488.89 499.28 55 re f
+0.860 0.900 0.920 RG 0.7 w 48 488.89 499.28 55 re S
+BT /F2 9 Tf 0.100 0.430 0.490 rg 1 0 0 1 64.00 520.89 Tm (WHAT THIS PROJECT DOES) Tj ET
+BT /F1 9.5 Tf 0.160 0.220 0.300 rg 1 0 0 1 64.00 502.89 Tm (Teacher session banata hai; student session QR scan karke verified check-in karta hai.) Tj ET
+BT /F2 16 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 432.89 Tm (Is guide mein) Tj ET
+0.120 0.480 0.550 rg 53 402.89 4 4 re f
+BT /F1 10 Tf 0.200 0.250 0.310 rg 1 0 0 1 66.00 400.89 Tm (End-to-end teacher aur student attendance workflow) Tj ET
+0.120 0.480 0.550 rg 53 373.89 4 4 re f
+BT /F1 10 Tf 0.200 0.250 0.310 rg 1 0 0 1 66.00 371.89 Tm (React, Express, Node.js, MySQL/JSON aur QR technologies ka role) Tj ET
+0.120 0.480 0.550 rg 53 344.89 4 4 re f
+BT /F1 10 Tf 0.200 0.250 0.310 rg 1 0 0 1 66.00 342.89 Tm (Data model, API routes, authentication aur duplicate prevention) Tj ET
+0.120 0.480 0.550 rg 53 315.89 4 4 re f
+BT /F1 10 Tf 0.200 0.250 0.310 rg 1 0 0 1 66.00 313.89 Tm (Local run, mobile/LAN testing, deployment aur verification) Tj ET
+0.910 0.950 0.970 rg 48 175 499.28 66 re f
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 62.00 219.00 Tm (CURRENT IMPLEMENTATION) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 62.00 200.00 Tm (React teacher portal + Express API; local JSON mode and MySQL production mode.) Tj ET
+BT /F1 8.5 Tf 0.370 0.430 0.490 rg 1 0 0 1 62.00 183.00 Tm (Prepared from the existing project files | 23 October 2026) Tj ET
+BT /F1 8 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 49.00 Tm (Project documentation - no credentials or private secrets are included.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4839 >>
+stream
+0.080 0.220 0.340 rg 0 827.89 595.28 14 re f
+BT /F2 8 Tf 0.120 0.440 0.520 rg 1 0 0 1 48.00 793.89 Tm (SMART ATTENDANCE SYSTEM  |  PROJECT GUIDE) Tj ET
+BT /F2 21 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 765.89 Tm (1. System kaise kaam karta hai) Tj ET
+BT /F1 9 Tf 0.370 0.430 0.490 rg 1 0 0 1 48.00 745.89 Tm (Teacher portal se student phone tak attendance ka poora flow) Tj ET
+0.120 0.480 0.550 rg 48 714.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 718.89 Tm (Teacher workflow) Tj ET
+0.120 0.480 0.550 rg 52 698.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 696.89 Tm (Teacher pehli baar Create teacher account se ek hi teacher account banata hai; baad) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 683.89 Tm (mein login karta hai.) Tj ET
+0.120 0.480 0.550 rg 52 669.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 667.89 Tm (Teacher portal mein registered students wale class ko select karta hai aur subject) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 654.89 Tm (type karta hai.) Tj ET
+0.120 0.480 0.550 rg 52 640.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 638.89 Tm (Start attendance session par server session ID, start time, expiry aur status banata) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 625.89 Tm (hai. Default expiry 10 minutes hai; allowed range 1 se 120 minutes.) Tj ET
+0.120 0.480 0.550 rg 52 611.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 609.89 Tm (Dashboard session-specific signed QR code dikhata hai. Teacher session ko expiry se) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 596.89 Tm (pehle end bhi kar sakta hai.) Tj ET
+0.120 0.480 0.550 rg 48 573.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 577.89 Tm (Student check-in workflow) Tj ET
+0.120 0.480 0.550 rg 52 557.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 555.89 Tm (Student apne phone ke Camera app ya Google Lens se teacher screen par dikh raha QR) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 542.89 Tm (scan karta hai. Student ko teacher portal mein scan nahi karna hota.) Tj ET
+0.120 0.480 0.550 rg 52 528.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 526.89 Tm (QR mobile-friendly website ke /student-scan page ko kholta hai. Page token ko server) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 513.89 Tm (se validate karta hai.) Tj ET
+0.120 0.480 0.550 rg 52 499.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 497.89 Tm (Student registered full name aur college roll number/student ID enter karta hai.) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 484.89 Tm (Naam/ID class ke registered student se milne chahiye.) Tj ET
+0.120 0.480 0.550 rg 52 470.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 468.89 Tm (Server active session, expiry, signed token, student identity aur duplicate attendance) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 455.89 Tm (check karta hai.) Tj ET
+0.120 0.480 0.550 rg 52 441.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 439.89 Tm (Sahi submission par session, student, class, subject, date, timestamp aur status ke) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 426.89 Tm (saath present record save hota hai. Student ko success/error message milta hai.) Tj ET
+0.120 0.480 0.550 rg 48 403.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 407.89 Tm (Teacher results) Tj ET
+0.120 0.480 0.550 rg 52 387.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 385.89 Tm (Dashboard active session ka present count aur checked-in students refresh karke) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 372.89 Tm (dikhata hai.) Tj ET
+0.120 0.480 0.550 rg 52 358.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 356.89 Tm (Reports mein session history, har session ke attendees, student-wise summary aur) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 343.89 Tm (per-session CSV export milta hai.) Tj ET
+0.930 0.970 0.980 rg 48 273.89 499.28 61 re f
+0.780 0.880 0.900 RG 0.7 w 48 273.89 499.28 61 re S
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 60.00 315.89 Tm (Important) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 299.89 Tm (Yahan attendance teacher ke QR ko student ke phone se scan karke lagti hai.) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 286.89 Tm (Student form mein submit karna identity verification ke baad check-in action) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 273.89 Tm (hai; manual teacher-side camera scanner istemal nahi hota.) Tj ET
+0.840 0.880 0.900 rg 48 39 499.28 0.8 re f
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 24.00 Tm (Smart Attendance System | Project guide | 23 Oct 2026) Tj ET
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 497.28 24.00 Tm (Page 2 of 7) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 5278 >>
+stream
+0.080 0.220 0.340 rg 0 827.89 595.28 14 re f
+BT /F2 8 Tf 0.120 0.440 0.520 rg 1 0 0 1 48.00 793.89 Tm (SMART ATTENDANCE SYSTEM  |  PROJECT GUIDE) Tj ET
+BT /F2 21 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 765.89 Tm (2. Technology stack) Tj ET
+BT /F1 9 Tf 0.370 0.430 0.490 rg 1 0 0 1 48.00 745.89 Tm (Kaunsi technology hai, aur project mein kis kaam aati hai) Tj ET
+0.120 0.480 0.550 rg 48 714.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 718.89 Tm (Frontend / browser) Tj ET
+0.120 0.480 0.550 rg 52 698.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 696.89 Tm (React 19: component-based user interface; teacher login, dashboard, student scan page,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 683.89 Tm (settings aur reports.) Tj ET
+0.120 0.480 0.550 rg 52 669.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 667.89 Tm (Create React App / react-scripts 5: development server, tests aur optimized production) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 654.89 Tm (build.) Tj ET
+0.120 0.480 0.550 rg 52 640.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 638.89 Tm (React Router DOM 7: /login, protected teacher portal, /reports, /settings aur public) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 625.89 Tm (/student-scan routes.) Tj ET
+0.120 0.480 0.550 rg 52 611.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 609.89 Tm (JavaScript + CSS: form state, responsive layout, mobile-friendly screens aur API) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 596.89 Tm (interactions.) Tj ET
+0.120 0.480 0.550 rg 52 582.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 580.89 Tm (qrcode 1.5: teacher portal mein signed attendance URL ko high-contrast QR image mein) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 567.89 Tm (render karta hai.) Tj ET
+0.120 0.480 0.550 rg 48 544.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 548.89 Tm (Backend / server) Tj ET
+0.120 0.480 0.550 rg 52 528.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 526.89 Tm (Node.js: JavaScript runtime; API process, cryptography aur file/database access.) Tj ET
+0.120 0.480 0.550 rg 52 512.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 510.89 Tm (Express 5: REST API routes, request parsing, CORS policy, authentication middleware) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 497.89 Tm (aur error responses.) Tj ET
+0.120 0.480 0.550 rg 52 483.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 481.89 Tm (cors: frontend origin ko allow-list ke zariye API se baat karne deta hai.) Tj ET
+0.120 0.480 0.550 rg 52 467.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 465.89 Tm (dotenv: local .env mein rakhe server settings load karta hai; secrets source code mein) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 452.89 Tm (nahi rakhe jate.) Tj ET
+0.120 0.480 0.550 rg 52 438.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 436.89 Tm (Node crypto: scrypt password hashing, random salt, HMAC-SHA256 teacher/QR signing,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 423.89 Tm (UUID session IDs aur constant-time comparisons.) Tj ET
+0.120 0.480 0.550 rg 48 400.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 404.89 Tm (Storage, deployment, tests) Tj ET
+0.120 0.480 0.550 rg 52 384.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 382.89 Tm (JSON file: local development aur simple single-process testing ka store) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 369.89 Tm (\(server/data.json ya DATA_FILE path\).) Tj ET
+0.120 0.480 0.550 rg 52 355.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 353.89 Tm (MySQL + mysql2/promise: persistent deployment database, SQL queries, transactions, row) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 340.89 Tm (locks aur unique constraints.) Tj ET
+0.120 0.480 0.550 rg 52 326.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 324.89 Tm (Vercel config: React static build aur SPA route rewrites. Render config: Node MySQL) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 311.89 Tm (API service.) Tj ET
+0.120 0.480 0.550 rg 52 297.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 295.89 Tm (Node built-in test runner + React Testing Library/Jest: API integration aur frontend) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 282.89 Tm (tests.) Tj ET
+0.930 0.970 0.980 rg 48 212.89 499.28 61 re f
+0.780 0.880 0.900 RG 0.7 w 48 212.89 499.28 61 re S
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 60.00 254.89 Tm (Do alag modes) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 238.89 Tm (npm run server JSON store chalata hai. npm run server:mysql MySQL mode chalata) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 225.89 Tm (hai aur MYSQL_* credentials/schema maangta hai. Local JSON aur production) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 212.89 Tm (MySQL ka data ek hi store nahi hota.) Tj ET
+0.840 0.880 0.900 rg 48 39 499.28 0.8 re f
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 24.00 Tm (Smart Attendance System | Project guide | 23 Oct 2026) Tj ET
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 497.28 24.00 Tm (Page 3 of 7) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 5479 >>
+stream
+0.080 0.220 0.340 rg 0 827.89 595.28 14 re f
+BT /F2 8 Tf 0.120 0.440 0.520 rg 1 0 0 1 48.00 793.89 Tm (SMART ATTENDANCE SYSTEM  |  PROJECT GUIDE) Tj ET
+BT /F2 21 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 765.89 Tm (3. Database, identity aur security) Tj ET
+BT /F1 9 Tf 0.370 0.430 0.490 rg 1 0 0 1 48.00 745.89 Tm (Attendance kis data se banti hai aur server kaise validation karta hai) Tj ET
+0.120 0.480 0.550 rg 48 714.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 718.89 Tm (Main database entities) Tj ET
+0.120 0.480 0.550 rg 52 698.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 696.89 Tm (students: id, full name, unique roll number/student ID aur class. Student registration) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 683.89 Tm (teacher-protected API se hoti hai.) Tj ET
+0.120 0.480 0.550 rg 52 669.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 667.89 Tm (teacher_accounts: one-time signup se ek teacher; username, salted password hash aur) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 654.89 Tm (created time. Plain password save nahi hota.) Tj ET
+0.120 0.480 0.550 rg 52 640.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 638.89 Tm (attendance_sessions: random session ID, teacher, class, subject, date,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 625.89 Tm (started/expires/ended timestamps aur active/ended/expired status.) Tj ET
+0.120 0.480 0.550 rg 52 611.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 609.89 Tm (attendance: student ID/name/roll number, nullable legacy session ID, class, subject,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 596.89 Tm (date, status, source aur recorded timestamp.) Tj ET
+0.120 0.480 0.550 rg 48 573.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 577.89 Tm (Trust aur duplicate rules) Tj ET
+0.120 0.480 0.550 rg 52 557.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 555.89 Tm (Name aur ID ki matching backend par registered student + session class se hoti hai;) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 542.89 Tm (frontend-only checks par bharosa nahi.) Tj ET
+0.120 0.480 0.550 rg 52 528.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 526.89 Tm (Signed QR token session ID aur expiry ko AUTH_SECRET se HMAC-SHA256 sign karta hai;) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 513.89 Tm (invalid, ended ya expired QR reject hota hai.) Tj ET
+0.120 0.480 0.550 rg 52 499.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 497.89 Tm (Teacher token signed hota hai aur 8 ghante valid rehta hai. Protected dashboard APIs) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 484.89 Tm (Authorization bearer token maangti hain.) Tj ET
+0.120 0.480 0.550 rg 52 470.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 468.89 Tm (Login/first-registration attempts par in-process rate limit: 15 minute mein per client) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 455.89 Tm (IP 10 attempts tak.) Tj ET
+0.120 0.480 0.550 rg 52 441.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 439.89 Tm (MySQL attendance insertion transaction mein hoti hai; UNIQUE\(session_id, student_id\)) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 426.89 Tm (database constraint ek student ki same session mein duplicate entry rokta hai.) Tj ET
+0.120 0.480 0.550 rg 52 412.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 410.89 Tm (JSON mode duplicate check karta hai, lekin multi-process/concurrent production writes) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 397.89 Tm (ke liye MySQL jaisi transactional guarantee nahi deta.) Tj ET
+0.120 0.480 0.550 rg 48 374.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 378.89 Tm (Secrets aur network) Tj ET
+0.120 0.480 0.550 rg 52 358.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 356.89 Tm (AUTH_SECRET kam-se-kam 32 characters ka random secret ho; .env ko share ya commit nahi) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 343.89 Tm (karna. .env.example sirf template hai.) Tj ET
+0.120 0.480 0.550 rg 52 329.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 327.89 Tm (CORS_ORIGIN sirf configured frontend origin ko allow kare. Deployed app ke liye HTTPS) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 314.89 Tm (frontend URL PUBLIC_APP_URL mein ho.) Tj ET
+0.120 0.480 0.550 rg 52 300.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 298.89 Tm (Teacher access token browser sessionStorage mein rehta hai; logout par remove hota) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 285.89 Tm (hai.) Tj ET
+0.930 0.970 0.980 rg 48 215.89 499.28 61 re f
+0.780 0.880 0.900 RG 0.7 w 48 215.89 499.28 61 re S
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 60.00 257.89 Tm (Privacy note) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 241.89 Tm (QR ek temporary attendance link hai. Student submission mein naam aur ID) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 228.89 Tm (collect hote hain; QR ko class ke bahar share na karein aur attendance exports) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 215.89 Tm (ko secure rakhein.) Tj ET
+0.840 0.880 0.900 rg 48 39 499.28 0.8 re f
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 24.00 Tm (Smart Attendance System | Project guide | 23 Oct 2026) Tj ET
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 497.28 24.00 Tm (Page 4 of 7) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 5159 >>
+stream
+0.080 0.220 0.340 rg 0 827.89 595.28 14 re f
+BT /F2 8 Tf 0.120 0.440 0.520 rg 1 0 0 1 48.00 793.89 Tm (SMART ATTENDANCE SYSTEM  |  PROJECT GUIDE) Tj ET
+BT /F2 21 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 765.89 Tm (4. Screens aur API map) Tj ET
+BT /F1 9 Tf 0.370 0.430 0.490 rg 1 0 0 1 48.00 745.89 Tm (Frontend pages aur backend endpoints ki zimmedari) Tj ET
+0.120 0.480 0.550 rg 48 714.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 718.89 Tm (Frontend screens) Tj ET
+0.120 0.480 0.550 rg 52 698.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 696.89 Tm (Login: account status check, one-time first teacher signup, phir teacher sign in.) Tj ET
+0.120 0.480 0.550 rg 52 682.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 680.89 Tm (Teacher home / attendance sessions: class + subject choose, start/end session, QR,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 667.89 Tm (present count aur live student list.) Tj ET
+0.120 0.480 0.550 rg 52 653.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 651.89 Tm (Student scan page: public signed-token validation; full name + student ID form;) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 638.89 Tm (success/error result.) Tj ET
+0.120 0.480 0.550 rg 52 624.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 622.89 Tm (Reports: session history, attendee table, per-session CSV export, student-wise) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 609.89 Tm (attendance percentage aur low-attendance alerts.) Tj ET
+0.120 0.480 0.550 rg 52 595.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 593.89 Tm (Settings: school name, class options aur location fields. Attendance radius/location) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 580.89 Tm (enforcement testing ke liye disabled hai.) Tj ET
+0.120 0.480 0.550 rg 48 557.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 561.89 Tm (Important API routes) Tj ET
+0.120 0.480 0.550 rg 52 541.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 539.89 Tm (GET /api/health - service/database health.) Tj ET
+0.120 0.480 0.550 rg 52 525.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 523.89 Tm (GET /api/auth/status, POST /api/auth/register, POST /api/auth/login - first signup) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 510.89 Tm (state aur teacher authentication.) Tj ET
+0.120 0.480 0.550 rg 52 496.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 494.89 Tm (GET /api/auth/me, GET /api/bootstrap, GET /api/attendance - teacher-only identity aur) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 481.89 Tm (dashboard data.) Tj ET
+0.120 0.480 0.550 rg 52 467.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 465.89 Tm (POST /api/sessions, GET /api/sessions, POST /api/sessions/:id/end - session lifecycle) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 452.89 Tm (\(teacher-only\).) Tj ET
+0.120 0.480 0.550 rg 52 438.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 436.89 Tm (GET /api/student-sessions/:token - public QR/session validation; only session metadata) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 423.89 Tm (returned.) Tj ET
+0.120 0.480 0.550 rg 52 409.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 407.89 Tm (POST /api/student-sessions/:token/attendance - public check-in request, but backend) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 394.89 Tm (token/identity/session validation required.) Tj ET
+0.120 0.480 0.550 rg 52 380.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 378.89 Tm (POST /api/students, DELETE /api/students/:id, PUT /api/settings - teacher-protected) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 365.89 Tm (management APIs.) Tj ET
+0.930 0.970 0.980 rg 48 308.89 499.28 48 re f
+0.780 0.880 0.900 RG 0.7 w 48 308.89 499.28 48 re S
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 60.00 337.89 Tm (Retired endpoint) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 321.89 Tm (POST /api/attendance/scan jaan-boojhkar 410 Gone deta hai. Purane) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 308.89 Tm (direct/manual attendance flow se record nahi banta.) Tj ET
+0.120 0.480 0.550 rg 48 285.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 289.89 Tm (Frontend-to-backend request) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 267.89 Tm (Development mein React ka /api proxy localhost:4000 par request bhejta hai. Deployment) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 254.89 Tm (par frontend build setting REACT_APP_API_URL ko API ke /api base URL par set karti hai.) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 241.89 Tm (API error aane par client explicit error message dikhata hai; fake success fallback nahi) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 228.89 Tm (hai.) Tj ET
+0.840 0.880 0.900 rg 48 39 499.28 0.8 re f
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 24.00 Tm (Smart Attendance System | Project guide | 23 Oct 2026) Tj ET
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 497.28 24.00 Tm (Page 5 of 7) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 6311 >>
+stream
+0.080 0.220 0.340 rg 0 827.89 595.28 14 re f
+BT /F2 8 Tf 0.120 0.440 0.520 rg 1 0 0 1 48.00 793.89 Tm (SMART ATTENDANCE SYSTEM  |  PROJECT GUIDE) Tj ET
+BT /F2 21 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 765.89 Tm (5. Project ko run aur deploy kaise karein) Tj ET
+BT /F1 9 Tf 0.370 0.430 0.490 rg 1 0 0 1 48.00 745.89 Tm (Local development, phone par test aur deployment setup) Tj ET
+0.120 0.480 0.550 rg 48 714.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 718.89 Tm (Local development) Tj ET
+0.950 0.960 0.970 rg 48 614.89 499.28 88 re f
+0.860 0.880 0.900 RG 0.7 w 48 614.89 499.28 88 re S
+BT /F1 8.6 Tf 0.120 0.240 0.360 rg 1 0 0 1 60.00 686.89 Tm (# Terminal 1: API \(JSON store\)) Tj ET
+BT /F1 8.6 Tf 0.120 0.240 0.360 rg 1 0 0 1 60.00 672.89 Tm (npm run server) Tj ET
+BT /F1 8.6 Tf 0.120 0.240 0.360 rg 1 0 0 1 60.00 658.89 Tm () Tj ET
+BT /F1 8.6 Tf 0.120 0.240 0.360 rg 1 0 0 1 60.00 644.89 Tm (# Terminal 2: React frontend) Tj ET
+BT /F1 8.6 Tf 0.120 0.240 0.360 rg 1 0 0 1 60.00 630.89 Tm (npm run dev) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 600.89 Tm (Frontend aam taur par http://localhost:3000/login par aur API http://localhost:4000 par) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 587.89 Tm (hoti hai. Pehli baar page par ek teacher username aur kam-se-kam 12-character password) Tj ET
+BT /F1 9.3 Tf 0.200 0.250 0.310 rg 1 0 0 1 50.00 574.89 Tm (create karein.) Tj ET
+0.120 0.480 0.550 rg 52 558.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 556.89 Tm (.env mein random AUTH_SECRET \(minimum 32 characters\), SESSION_TTL_MINUTES,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 543.89 Tm (PUBLIC_APP_URL aur CORS_ORIGIN set karein. Current default expiry 10 minutes hai.) Tj ET
+0.120 0.480 0.550 rg 52 529.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 527.89 Tm (Environment template: .env.example. Password/secret ko PDF, git ya public deployment) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 514.89 Tm (text mein kabhi na likhein.) Tj ET
+0.120 0.480 0.550 rg 48 491.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 495.89 Tm (Phone se same Wi-Fi par test) Tj ET
+0.120 0.480 0.550 rg 52 475.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 473.89 Tm (PC aur phone ek hi Wi-Fi par hon. PC ka LAN IPv4 address maloom karein; phone par) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 460.89 Tm (localhost nahi, PC ka LAN IP use hota hai.) Tj ET
+0.120 0.480 0.550 rg 52 446.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 444.89 Tm (React ko network interface par bind karein: PowerShell mein $env:HOST="0.0.0.0"; npm) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 431.89 Tm (run dev.) Tj ET
+0.120 0.480 0.550 rg 52 417.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 415.89 Tm (PUBLIC_APP_URL ko http://PC-LAN-IP:3000 aur CORS_ORIGIN ko exact same origin banakar) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 402.89 Tm (API restart karein. Naya QR generate karein.) Tj ET
+0.120 0.480 0.550 rg 52 388.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 386.89 Tm (QR expired/ended ho to naya attendance session start karein. Local HTTP camera site ke) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 373.89 Tm (liye QR scan built-in Camera/Google Lens se hota hai; QR mein link phone ke browser) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 360.89 Tm (mein khulta hai.) Tj ET
+0.120 0.480 0.550 rg 52 346.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 344.89 Tm (Phone page tak nahi pahunchta to Wi-Fi client isolation, Windows firewall, VPN ya) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 331.89 Tm (guest Wi-Fi check karein. Sirf trusted private LAN par ports 3000/4000 allow karein.) Tj ET
+0.120 0.480 0.550 rg 48 308.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 312.89 Tm (Production deployment) Tj ET
+0.120 0.480 0.550 rg 52 292.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 290.89 Tm (Frontend ko static React build ke roop mein deploy karein; Vercel config SPA routes ko) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 277.89 Tm (index.html par rewrite karti hai.) Tj ET
+0.120 0.480 0.550 rg 52 263.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 261.89 Tm (API: npm run server:mysql; Render config isi command aur /api/health health-check ko) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 248.89 Tm (use karti hai.) Tj ET
+0.120 0.480 0.550 rg 52 234.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 232.89 Tm (MySQL server par server/schema.sql \(fresh DB\) ya existing DB ke liye backup ke baad) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 219.89 Tm (one-time server/migrations/001_attendance_sessions.sql.) Tj ET
+0.120 0.480 0.550 rg 52 205.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 203.89 Tm (Agar migration 001 pehle hi apply ho chuki hai to teacher account table ke liye) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 190.89 Tm (002_teacher_accounts.sql apply karein. Migration 001 ko repeat na karein.) Tj ET
+0.120 0.480 0.550 rg 52 176.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 174.89 Tm (Deployment secrets: MYSQL_HOST, MYSQL_PORT, MYSQL_USER, MYSQL_PASSWORD,) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 161.89 Tm (MYSQL_DATABASE, AUTH_SECRET, PUBLIC_APP_URL, CORS_ORIGIN, SESSION_TTL_MINUTES;) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 148.89 Tm (frontend build par REACT_APP_API_URL.) Tj ET
+0.930 0.970 0.980 rg 48 91.88999999999999 499.28 48 re f
+0.780 0.880 0.900 RG 0.7 w 48 91.88999999999999 499.28 48 re S
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 60.00 120.89 Tm (Important) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 104.89 Tm (localhost sirf usi device ko refer karta hai. Bahar ke mobile networks ke liye) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 91.89 Tm (public HTTPS deployment chahiye; LAN IP internet se accessible nahi hota.) Tj ET
+0.840 0.880 0.900 rg 48 39 499.28 0.8 re f
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 24.00 Tm (Smart Attendance System | Project guide | 23 Oct 2026) Tj ET
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 497.28 24.00 Tm (Page 6 of 7) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 5697 >>
+stream
+0.080 0.220 0.340 rg 0 827.89 595.28 14 re f
+BT /F2 8 Tf 0.120 0.440 0.520 rg 1 0 0 1 48.00 793.89 Tm (SMART ATTENDANCE SYSTEM  |  PROJECT GUIDE) Tj ET
+BT /F2 21 Tf 0.080 0.200 0.310 rg 1 0 0 1 48.00 765.89 Tm (6. Project files, verification aur known limits) Tj ET
+BT /F1 9 Tf 0.370 0.430 0.490 rg 1 0 0 1 48.00 745.89 Tm (Codebase map aur guide banate waqt check ki gayi capabilities) Tj ET
+0.120 0.480 0.550 rg 48 714.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 718.89 Tm (Key folders/files) Tj ET
+0.120 0.480 0.550 rg 52 698.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 696.89 Tm (src/App.js, src/context/AppContext.js: routes, teacher auth state aur shared) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 683.89 Tm (application state.) Tj ET
+0.120 0.480 0.550 rg 52 669.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 667.89 Tm (src/pages/Login, StudentScan, Reports, Home, Settings: teacher login, student) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 654.89 Tm (check-in, reports aur portal screens.) Tj ET
+0.120 0.480 0.550 rg 52 640.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 638.89 Tm (src/components/AttendanceForm: session controls, QR generation, attendees/count;) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 625.89 Tm (Dashboard, StudentList, AttendanceList: supporting UI.) Tj ET
+0.120 0.480 0.550 rg 52 611.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 609.89 Tm (src/services/apiService.js: frontend HTTP client, bearer token aur API error handling.) Tj ET
+0.120 0.480 0.550 rg 52 595.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 593.89 Tm (server/server.js: local JSON API; server/mysqlServer.js: MySQL API; server/auth.js:) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 580.89 Tm (password/token/QR security helpers.) Tj ET
+0.120 0.480 0.550 rg 52 566.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 564.89 Tm (server/schema.sql and server/migrations/: database schema aur existing DB upgrades;) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 551.89 Tm (README.md: run/deploy instructions.) Tj ET
+0.120 0.480 0.550 rg 48 528.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 532.89 Tm (Project checks \(current codebase\)) Tj ET
+0.120 0.480 0.550 rg 52 512.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 510.89 Tm (npm run build: pass; ek existing ESLint warning AttendanceList.js mein unused students) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 497.89 Tm (variable ka hai.) Tj ET
+0.120 0.480 0.550 rg 52 483.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 481.89 Tm (npm test -- --watchAll=false: frontend auth test pass.) Tj ET
+0.120 0.480 0.550 rg 52 467.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 465.89 Tm (npm run test:server: 3 API integration tests pass - first registration/login, invalid) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 452.89 Tm (identity, attendance insert, duplicate, reports, session end/expiry.) Tj ET
+0.120 0.480 0.550 rg 48 429.89 3 16 re f
+BT /F2 12 Tf 0.080 0.200 0.310 rg 1 0 0 1 59.00 433.89 Tm (Known limits / use with care) Tj ET
+0.120 0.480 0.550 rg 52 413.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 411.89 Tm (Automated end-to-end tests JSON backend par chalaye gaye. MySQL database service) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 398.89 Tm (available na hone se migration/real MySQL workflow live verify nahi hua.) Tj ET
+0.120 0.480 0.550 rg 52 384.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 382.89 Tm (JSON mode local/single-process use ke liye hai; production multi-user concurrency ke) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 369.89 Tm (liye MySQL use karein.) Tj ET
+0.120 0.480 0.550 rg 52 355.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 353.89 Tm (System mein one teacher account hai; multiple teacher roles/accounts abhi feature nahi) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 340.89 Tm (hain. Student identity registered name + ID se check hoti hai; student login nahi hai.) Tj ET
+0.120 0.480 0.550 rg 52 326.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 324.89 Tm (Location/radius checking disabled hai; QR validation ko GPS/proximity verification na) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 311.89 Tm (samjhein.) Tj ET
+0.120 0.480 0.550 rg 52 297.89 3 3 re f
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 295.89 Tm (Settings screen ka Clear All Data purane localStorage data ko clear karta hai; server) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 282.89 Tm (JSON/MySQL records ko delete karne ka mechanism nahi samjha jana chahiye. Is control) Tj ET
+BT /F1 9.2 Tf 0.200 0.250 0.310 rg 1 0 0 1 63.00 269.89 Tm (ko backend data wipe na manen.) Tj ET
+0.930 0.970 0.980 rg 48 199.89 499.28 61 re f
+0.780 0.880 0.900 RG 0.7 w 48 199.89 499.28 61 re S
+BT /F2 9 Tf 0.080 0.380 0.450 rg 1 0 0 1 60.00 241.89 Tm (Data safety) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 225.89 Tm (server/data.json aur server/data-bitthal.json ko project data files ke roop) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 212.89 Tm (mein treat karein. Backups ke bina delete na karein. Secrets .env mein hain;) Tj ET
+BT /F1 8.7 Tf 0.200 0.250 0.310 rg 1 0 0 1 60.00 199.89 Tm (woh PDF mein include nahi kiye gaye.) Tj ET
+0.840 0.880 0.900 rg 48 39 499.28 0.8 re f
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 48.00 24.00 Tm (Smart Attendance System | Project guide | 23 Oct 2026) Tj ET
+BT /F1 7.5 Tf 0.430 0.480 0.530 rg 1 0 0 1 497.28 24.00 Tm (Page 7 of 7) Tj ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000016 00000 n 
+0000000065 00000 n 
+0000000162 00000 n 
+0000000259 00000 n 
+0000000361 00000 n 
+0000000503 00000 n 
+0000002688 00000 n 
+0000002830 00000 n 
+0000007720 00000 n 
+0000007863 00000 n 
+0000013193 00000 n 
+0000013337 00000 n 
+0000018868 00000 n 
+0000019012 00000 n 
+0000024223 00000 n 
+0000024367 00000 n 
+0000030730 00000 n 
+0000030874 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+36623
+%%EOF

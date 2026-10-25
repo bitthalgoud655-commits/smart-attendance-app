@@ -49,6 +49,22 @@
   font-size: 0.95rem;
 }
 
+.navbar-logout {
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.95rem;
+}
+
+.navbar-logout:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
 .navbar-links li a:hover {
   background: rgba(255, 255, 255, 0.15);
   color: white;
@@ -132,6 +148,12 @@
 
   .navbar-links li a {
     display: block;
+    padding: 12px 16px;
+  }
+
+  .navbar-logout {
+    width: 100%;
+    text-align: left;
     padding: 12px 16px;
   }
 }

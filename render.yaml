@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: smart-attendance-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm run server:mysql
+    healthCheckPath: /api/health
+    envVars:
+      - key: MYSQL_HOST
+        sync: false
+      - key: MYSQL_PORT
+        value: "3306"
+      - key: MYSQL_USER
+        sync: false
+      - key: MYSQL_PASSWORD
+        sync: false
+      - key: MYSQL_DATABASE
+        value: smart_attendance
+      - key: TEACHER_USERNAME
+        sync: false
+      - key: TEACHER_PASSWORD
+        sync: false
+      - key: AUTH_SECRET
+        sync: false
+      - key: SESSION_TTL_MINUTES
+        value: "10"
+      - key: PUBLIC_APP_URL
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false

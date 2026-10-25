@@ -1,0 +1,38 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Priya Singh",
+      "rollNo": "102",
+      "class": "10-A"
+    },
+    {
+      "id": 1792003013153,
+      "name": "bitthal",
+      "rollNo": "233CS0039",
+      "class": "10-A"
+    },
+    {
+      "id": 1792599088314,
+      "name": "hjgj",
+      "rollNo": "100",
+      "class": "10-A"
+    }
+  ],
+  "attendanceRecords": [],
+  "settings": {
+    "schoolName": "Oriental University",
+    "classOptions": [
+      "10-A",
+      "10-B",
+      "11-A",
+      "11-B",
+      "12-A",
+      "12-B"
+    ],
+    "theme": "light",
+    "classLatitude": "",
+    "classLongitude": "",
+    "attendanceRadius": 5
+  }
+}

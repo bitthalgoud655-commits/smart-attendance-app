@@ -14,6 +14,7 @@ const StudentList = () => {
   } = useApp();
 
   const [showForm, setShowForm] = useState(false);
+  const [formMessage, setFormMessage] = useState('');
   const [newStudent, setNewStudent] = useState({
     name: '',
     rollNo: '',
@@ -22,16 +23,32 @@ const StudentList = () => {
 
   const filteredStudents = getFilteredStudents();
 
-  const handleAdd = (e) => {
+  const handleAdd = async (e) => {
     e.preventDefault();
-    if (!newStudent.name.trim() || !newStudent.rollNo.trim()) return;
-    addStudent(newStudent);
-    setNewStudent({
-      name: '',
-      rollNo: '',
-      class: settings.classOptions[0] || '10-A',
-    });
-    setShowForm(false);
+    const name = newStudent.name.trim();
+    const rollNo = newStudent.rollNo.trim();
+
+    if (!name || !rollNo) {
+      setFormMessage('Student name और roll number दोनों भरें।');
+      return;
+    }
+
+    if (students.some((student) => String(student.rollNo).toLowerCase() === rollNo.toLowerCase())) {
+      setFormMessage('यह roll number पहले से registered है।');
+      return;
+    }
+
+    try {
+      await addStudent({ ...newStudent, name, rollNo });
+      setFormMessage('Student successfully registered.');
+      setNewStudent({
+        name: '',
+        rollNo: '',
+        class: settings.classOptions[0] || '10-A',
+      });
+    } catch (error) {
+      setFormMessage(error.message || 'Registration failed. Start the backend and try again.');
+    }
   };
 
   return (
@@ -53,7 +70,10 @@ const StudentList = () => {
           </select>
           <button
             className="btn btn-primary"
-            onClick={() => setShowForm(!showForm)}
+            onClick={() => {
+              setShowForm(!showForm);
+              setFormMessage('');
+            }}
           >
             {showForm ? '✕ Cancel' : '+ Add Student'}
           </button>
@@ -95,6 +115,7 @@ const StudentList = () => {
           <button type="submit" className="btn btn-success">
             ✓ Save
           </button>
+          {formMessage && <p className="registration-message">{formMessage}</p>}
         </form>
       )}
 
@@ -141,6 +162,7 @@ const StudentList = () => {
           </tbody>
         </table>
       </div>
+
     </div>
   );
 };

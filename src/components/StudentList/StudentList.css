@@ -70,6 +70,14 @@
   border-color: #667eea;
 }
 
+.registration-message {
+  flex-basis: 100%;
+  margin: 0;
+  color: #176b45;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 /* Table */
 .students-table-wrapper {
   overflow-x: auto;
@@ -178,3 +186,4 @@
   padding: 6px 12px;
   font-size: 0.8rem;
 }
+
